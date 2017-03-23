@@ -3,10 +3,11 @@ package com.sbt.misc;
 /**
  * Created by artem on 22.03.17.
  */
-public class Person {
+public class Person implements Comparable{
     private final boolean man;
     private final String name;
     private Person spouse;
+    private String email;
 
     public Person(boolean man, String name) {
         this.man = man;
@@ -41,9 +42,18 @@ public class Person {
         if (this.spouse != null) {
             spouseName = this.spouse.name;
         } else {
-            spouseName = "No :(";
+            spouseName = "No";
         }
-        return "Name:" + this.name + "; Spouse: " + spouseName;
+        return "Name:" + this.name + "; Spouse: " + spouseName + "; Hashcode: " + this.hashCode();
     }
 
+    @Override
+    public int compareTo(Object o) {
+        if (this.email == ((Person)o).email){
+            return 1;
+        }
+        else{
+            return 0;
+        }
+    }
 }
