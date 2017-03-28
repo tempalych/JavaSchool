@@ -3,6 +3,7 @@ package com.sbt.misc;
 import org.omg.CORBA.PERSIST_STORE;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -99,6 +100,22 @@ public class Test {
 //        }
 
         list.forEach(e -> System.out.println(e.toString()));
+
+
+        System.out.println("=====Bubble sorting=====");
+        int[] intArray = {4,7,2,5,3,1,8,9,5,0,0,7,2,1,7};
+        for (int j = 0; j < intArray.length; j++) {
+            for (int i = 0; i < intArray.length - 1; i++) {
+                if (intArray[i] > intArray[i + 1]) {
+                    int intTmp;
+                    intTmp = intArray[i];
+                    intArray[i] = intArray[i + 1];
+                    intArray[i + 1] = intTmp;
+                }
+            }
+        }
+
+        System.out.println(Arrays.toString(intArray));
 
     }
 }
