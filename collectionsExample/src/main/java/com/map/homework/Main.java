@@ -10,7 +10,11 @@ public class Main {
         String input = "8;1,1;1,1;2;1,1;1,2;2;2;2";
         String[] actions = input.split(";");
         for (int i = 1; i < actions.length; i++) {
-            System.out.println(parseAction(naturalArray, actions[i]));
+            String result;
+            result = parseAction(naturalArray, actions[i]);
+            if (result != null) {
+                System.out.println(result);
+            }
         }
     }
 

@@ -8,5 +8,6 @@ import java.util.List;
  */
 public interface INaturalArray {
     boolean add(Integer value);
+
     Integer deleteMin();
 }

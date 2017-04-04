@@ -1,7 +1,5 @@
 package com.map.homework;
 
-import javafx.collections.transformation.SortedList;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -11,11 +9,12 @@ import java.util.List;
  */
 public class NaturalArray implements INaturalArray {
 
-    List<Integer> list;
+    final List<Integer> list;
 
     public NaturalArray() {
-        list = new ArrayList<Integer>();
+        list = new ArrayList<>();
     }
+
 
     @Override
     public boolean add(Integer value) {
