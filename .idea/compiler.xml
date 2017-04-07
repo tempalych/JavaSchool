@@ -12,8 +12,8 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="collectionsExample" target="1.5" />
-      <module name="generics" target="1.5" />
+      <module name="collectionsExample" target="1.8" />
+      <module name="generics" target="1.8" />
       <module name="testmodule" target="1.8" />
     </bytecodeTargetLevel>
   </component>
