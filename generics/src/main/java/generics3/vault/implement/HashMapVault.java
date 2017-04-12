@@ -26,7 +26,7 @@ public class HashMapVault<K,V> implements UniVault<K,V> {
     }
 
     @Override
-    public void putAll(Map<K, V> entries) {
+    public void putAll(Map<K, ? extends V> entries) {
         map.putAll(entries);
     }
 

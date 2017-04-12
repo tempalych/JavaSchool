@@ -9,7 +9,7 @@ import java.util.Map;
 public interface UniVault<K,V> {
     void put (K key, V value);
     V get (K key);
-    void putAll(Map<K,V> entries);
+    void putAll(Map<K,? extends V> entries);
     Map<K,V> getAllByKeys(Collection<K> keys);
     Collection<V> getAllByPredicate(Predicate<? super V> predicate);
 }
