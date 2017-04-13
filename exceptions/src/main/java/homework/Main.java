@@ -78,10 +78,10 @@ public class Main {
                         System.out.println("Операция по счету " + currentAccountId + " исполнена.");
                     } catch (AccessDeniedEcxeption accessDeniedEcxeption) {
                         System.out.println(accessDeniedEcxeption.toString());
-                        break;
+                        //break;
                     } catch (NotEnoughMoneyException e) {
                         System.out.println(e.toString());
-                        break;
+                        //break;
                     }
                 }
             }
