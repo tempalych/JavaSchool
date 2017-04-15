@@ -9,6 +9,7 @@
         <module name="collectionsExample" />
         <module name="exceptions" />
         <module name="generics" />
+        <module name="reflection" />
         <module name="testmodule" />
       </profile>
     </annotationProcessing>
@@ -16,6 +17,7 @@
       <module name="collectionsExample" target="1.8" />
       <module name="exceptions" target="1.8" />
       <module name="generics" target="1.8" />
+      <module name="reflection" target="1.8" />
       <module name="testmodule" target="1.8" />
     </bytecodeTargetLevel>
   </component>
