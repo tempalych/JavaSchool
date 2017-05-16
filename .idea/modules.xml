@@ -3,10 +3,14 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaSchool.iml" filepath="$PROJECT_DIR$/JavaSchool.iml" />
+      <module fileurl="file://$PROJECT_DIR$/classLoaders/classLoaders.iml" filepath="$PROJECT_DIR$/classLoaders/classLoaders.iml" />
       <module fileurl="file://$PROJECT_DIR$/collectionsExample/collectionsExample.iml" filepath="$PROJECT_DIR$/collectionsExample/collectionsExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/exceptions/exceptions.iml" filepath="$PROJECT_DIR$/exceptions/exceptions.iml" />
       <module fileurl="file://$PROJECT_DIR$/generics/generics.iml" filepath="$PROJECT_DIR$/generics/generics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lambdas/lambdas.iml" filepath="$PROJECT_DIR$/lambdas/lambdas.iml" />
       <module fileurl="file://$PROJECT_DIR$/reflection/reflection.iml" filepath="$PROJECT_DIR$/reflection/reflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serializing/serializing.iml" filepath="$PROJECT_DIR$/serializing/serializing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testing/testing.iml" filepath="$PROJECT_DIR$/testing/testing.iml" />
       <module fileurl="file://$PROJECT_DIR$/testmodule/testmodule.iml" filepath="$PROJECT_DIR$/testmodule/testmodule.iml" />
     </modules>
   </component>

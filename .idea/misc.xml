@@ -8,10 +8,14 @@
         <option value="$PROJECT_DIR$/generics/pom.xml" />
         <option value="$PROJECT_DIR$/exceptions/pom.xml" />
         <option value="$PROJECT_DIR$/reflection/pom.xml" />
+        <option value="$PROJECT_DIR$/testing/pom.xml" />
+        <option value="$PROJECT_DIR$/classLoaders/pom.xml" />
+        <option value="$PROJECT_DIR$/lambdas/pom.xml" />
+        <option value="$PROJECT_DIR$/serializing/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

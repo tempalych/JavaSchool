@@ -6,18 +6,26 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="classLoaders" />
         <module name="collectionsExample" />
         <module name="exceptions" />
         <module name="generics" />
+        <module name="lambdas" />
         <module name="reflection" />
+        <module name="serializing" />
+        <module name="testing" />
         <module name="testmodule" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="collectionsExample" target="1.8" />
-      <module name="exceptions" target="1.8" />
-      <module name="generics" target="1.8" />
-      <module name="reflection" target="1.8" />
+      <module name="classLoaders" target="1.5" />
+      <module name="collectionsExample" target="1.5" />
+      <module name="exceptions" target="1.5" />
+      <module name="generics" target="1.5" />
+      <module name="lambdas" target="1.5" />
+      <module name="reflection" target="1.5" />
+      <module name="serializing" target="1.5" />
+      <module name="testing" target="1.5" />
       <module name="testmodule" target="1.8" />
     </bytecodeTargetLevel>
   </component>
